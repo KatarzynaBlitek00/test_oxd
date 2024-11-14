@@ -4,11 +4,9 @@ import openai
 import os
 
 # Ustawienie klucza API OpenAI
-# 'sk-proj-_ntxXZZ329_VcNkuyZ94k6wlb4vS9I24lZBoQTvOSX-yEE1GUbh4qvmuhVtT**eAqHICmcFAIUrl88OmgIAJ3tXzjFLsA'  nie udostepniam klucza publicznie
+openai.api_key = 'sk-proj-_ntxXZZ329_VcNkuyZ94k6wlb4vS9I24lZBoQTvOSX-yEE1GUbh4qvmuhVtT**eAqHICmcFAIUrl88OmgIAJ3tXzjFLsA' # nie udostepniam klucza publicznie finalnie zapisany w innym pliku txt
 
-
-# Wskazanie pliku z kluczem API
-openai.api_key = 'C:\Users\katar\backend-recruitment-task-master\api_key'
+#openai.api_key = 'C:\Users\katar\backend-recruitment-task-master\api_key'
 
 def read_text_file(file_path):
     """Odczytuje zawartość pliku tekstowego."""
